@@ -33,3 +33,6 @@ jobs:
 
     - name: Run Build
       run: python setup.py build
+
+    - name: Print Current Directory
+      run: echo "Current directory:$(pwd)"
